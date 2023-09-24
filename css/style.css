@@ -1,0 +1,222 @@
+@import url("http://fonts.googleapis.com/css?family=Roboto:wght@200;300;400;500;600;700;800&display=swap");
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+:root {
+  --title-font-family:  'Dela Gothic One', serif;
+
+  --half-color: linear-gradient(90deg, #353535, 50%, #9a3030 50%);
+  --tq-color-secondary: linear-gradient(90deg, #353535, 75%, #9a3030 75%);
+
+  --hero: #ffdd44;
+  --primary: #ffdd44 ;
+
+  --main_graph: #353535;
+  --color-nav-text: white;
+  --color-text: white;
+
+  --color-footer: #031b34;
+  --color-blog: #042c54;
+  --color-subtext: #ff8a71;
+  --grey: #333;
+  --black: #000;
+
+  --container-width: 1000px;
+  --header-height: 747px;
+
+}
+
+
+/* General css
+================================================== */
+
+html {
+    scroll-behavior: smooth;
+}
+  
+body {
+    background:#fff;
+    font-size:17px;
+    font-family: "Roboto",sans-serif;
+    line-height:1.7;
+    color: var(--grey);
+    
+}
+
+.container{
+    padding: 2rem;
+}
+
+
+.content {
+    max-width: var(--container-width);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.divider {
+    width: 80%;
+    height: 2px;
+    background: var(--grey);
+    border-radius: 1px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+    font-family: var(--title-font-family);
+}
+
+
+
+/* Header
+================================================== */
+
+.hero {
+    background-color: var(--hero);
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    
+}
+
+.jackdaw {
+    width: 100%; 
+    position: relative;
+    left: 9px;
+    top: -20px;
+}
+  
+.header-text {
+    font-family: var(--title-font-family);
+    text-transform: uppercase;
+    font-size: 8px;
+    font-weight: 700;
+}
+
+
+/* Quote
+========================================== */
+
+.quote {
+    padding: 2rem;
+}
+
+.quote h1 {
+    font-family: var(--title-font-family);
+    font-weight: 600;
+}
+
+.quote div p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* Current Action
+========================================== */
+
+.current-action-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border: solid 2px var(--black);
+    margin-bottom: 2rem;
+}
+
+.current-action-container p {
+    color: var(--gray)
+}
+
+.current-action a {
+    text-decoration: none;
+    color: var(--black);
+    font-family: var(--title-font-family);
+    font-size: large;
+}
+
+
+/* Content
+========================================== */
+
+.rest{
+    width: 100%;
+}
+
+/* Actions list
+====================== */ 
+
+.actions-container {
+    background-color: var(--hero);
+    padding: 2rem;
+}
+
+.actions-container h2 {
+    font-family: var(--title-font-family);
+}
+
+.acion-item a {
+    text-decoration: none;
+    color: var(--gray);
+}
+
+.acion-item a:hover {
+    color: var(--black);
+    text-decoration: none;
+}
+
+/* Qutes list
+====================== */ 
+
+
+.quotes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.quotes-container h2 {
+    font-family: var(--title-font-family);
+
+}
+
+.quote-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote-item div p {
+    font-style: italic;
+    margin-left: 10px;
+}
+/* Media queries
+================================================== */
+
+
+@media (max-width: 1000px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .rest {
+        flex-direction: column;
+    }
+
+    .jackdaw {
+        width: 60%;
+        position: static !important;
+    }
+
+    .quote > div > p {
+        margin-left: 0;
+    }
+
+    .jackdaw-cont {
+        margin-bottom: 1rem;
+    }
+}

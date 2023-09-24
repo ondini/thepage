@@ -1,0 +1,9 @@
+.android-svg-icon {
+	width: 30px;
+	height: 30px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-image: url(
+		data:image/svg+xml;base64,PD9....<rest_of_the_base64_string>);
+}
