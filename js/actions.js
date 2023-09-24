@@ -10,6 +10,10 @@ var actions = [
     icon: "video",
   },
   {
+    action: "Read on DDF",
+    url: "http://www.geometry.caltech.edu/pubs/DKT05.pdf",
+    icon: "book",
+  {
     action: "Watch MPV lectures",
     url: "https://www.youtube.com/watch?v=v5U1d_AklT8&list=PLQL6z4JeTTQneuiXekoB639gEOzuen79_&index=6&ab_channel=CVUTFEL",
     icon: "video",
