@@ -5,6 +5,9 @@ document.addEventListener("DOMContentLoaded", function () {
     var action = actions[i];
     actions_cont.innerHTML += `
         <div class="acion-item">
+              <div class="action-icon">
+                <img class="icon" src="icons/${action.icon}.svg" alt="Action Icon">
+              </div>
               <a href=${action.url} target="_blank">${action.action}</a>
         </div>
       `;
@@ -25,10 +28,19 @@ document.addEventListener("DOMContentLoaded", function () {
     var quote = quotes[i];
     quotes_cont.innerHTML += `
       <div class="quote-item">
-        <h5>${quote.text}</h5>
+        <h6>"${quote.text}"</h6>
         <div class="row justify-content-end">
           <p>~ ${quote.author}</p>
         </div>
       </div> `;
   }
+
+  // get random current quote
+
+  var current_quote = quotes[Math.floor(Math.random() * quotes.length)];
+  var current_quote_cont = document.getElementsByClassName("current-quote")[0];
+  current_quote_cont.innerHTML = `
+      <h1> "${current_quote.text}" </h1>
+      <div class="row justify-content-end"><p class="ml-4">~ ${current_quote.author}</p></div>
+    `;
 });

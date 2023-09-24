@@ -1,33 +1,20 @@
-@import url("http://fonts.googleapis.com/css?family=Roboto:wght@200;300;400;500;600;700;800&display=swap");
-
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto:wght@200;300;400;500;600;700;800&display=swap");
 
 :root {
   --title-font-family:  'Dela Gothic One', serif;
-
-  --half-color: linear-gradient(90deg, #353535, 50%, #9a3030 50%);
-  --tq-color-secondary: linear-gradient(90deg, #353535, 75%, #9a3030 75%);
+  --text-font-family: "Roboto", sans-serif;
 
   --hero: #ffdd44;
-  --primary: #ffdd44 ;
 
-  --main_graph: #353535;
-  --color-nav-text: white;
-  --color-text: white;
-
-  --color-footer: #031b34;
-  --color-blog: #042c54;
-  --color-subtext: #ff8a71;
   --grey: #333;
   --black: #000;
 
-  --container-width: 1000px;
-  --header-height: 747px;
-
+  --container-width: 1100px;
 }
 
 
@@ -41,7 +28,7 @@ html {
 body {
     background:#fff;
     font-size:17px;
-    font-family: "Roboto",sans-serif;
+    font-family: var(--text-font-family);
     line-height:1.7;
     color: var(--grey);
     
@@ -60,15 +47,13 @@ body {
     width: 100%;
 }
 
-.divider {
-    width: 80%;
-    height: 2px;
-    background: var(--grey);
-    border-radius: 1px;
+
+.icon {
+    width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: black;
+    color: var(--black);
     font-family: var(--title-font-family);
 }
 
@@ -102,16 +87,16 @@ h1, h2, h3, h4, h5, h6 {
 /* Quote
 ========================================== */
 
-.quote {
+.current-quote {
     padding: 2rem;
 }
 
-.quote h1 {
+.current-quote h1 {
     font-family: var(--title-font-family);
     font-weight: 600;
 }
 
-.quote div p {
+.current-quote div p {
     font-size: 18px;
     font-style: italic;
 }
@@ -159,6 +144,11 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--title-font-family);
 }
 
+.acion-item {
+    display: flex;
+    flex-direction: row;
+}
+
 .acion-item a {
     text-decoration: none;
     color: var(--gray);
@@ -167,6 +157,12 @@ h1, h2, h3, h4, h5, h6 {
 .acion-item a:hover {
     color: var(--black);
     text-decoration: none;
+}
+
+.action-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
 }
 
 /* Qutes list
@@ -190,6 +186,7 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     align-items: center;
 }
+
 .quote-item div p {
     font-style: italic;
     margin-left: 10px;
