@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     actions_cont.innerHTML += `
         <div class="acion-item">
               <div class="action-icon">
-                <img class="icon" src="icons/${action.icon}.svg" alt="Action Icon">
+                <img class="icon" src="assets/icons/${action.icon}.svg" alt="Action Icon">
               </div>
               <a href=${action.url} target="_blank">${action.action}</a>
         </div>
