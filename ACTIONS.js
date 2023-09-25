@@ -99,4 +99,9 @@ var actions = [
     url: "https://www.spiceworks.com/tech/artificial-intelligence/articles/what-is-reinforcement-learning/amp/",
     icon: "book",
   },
+  {
+    action: "Watch hacker's guide to LLMs",
+    url: "https://www.youtube.com/watch?v=jkrNMKz9pWU&ab_channel=JeremyHoward",
+    icon: "video",
+  },
 ];
