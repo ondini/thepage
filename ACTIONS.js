@@ -1,5 +1,10 @@
 var actions = [
   {
+    action: "Read paper on small Language models",
+    url: "https://arxiv.org/abs/2311.11045/",
+    icon: "book",
+  },
+  {
     action: "Watch TinyML Lectures",
     url: "https://efficientml.ai/",
     icon: "video",
