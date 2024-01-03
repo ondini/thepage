@@ -109,4 +109,9 @@ var actions = [
     url: "https://www.youtube.com/watch?v=jkrNMKz9pWU&ab_channel=JeremyHoward",
     icon: "video",
   },
+  {
+    action: "Watch Karpathy's course on ML",
+    url: "https://www.youtube.com/playlist?list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC",
+    icon: "video",
+  }
 ];
