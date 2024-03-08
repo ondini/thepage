@@ -113,5 +113,10 @@ var actions = [
     action: "Watch Karpathy's course on ML",
     url: "https://www.youtube.com/playlist?list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC",
     icon: "video",
+  },
+  {
+    action: "Read Eloquent Javasctipt",
+    url: "https://eloquentjavascript.net/",
+    icon: "book",
   }
 ];
