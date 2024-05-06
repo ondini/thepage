@@ -118,5 +118,29 @@ var actions = [
     action: "Read Eloquent Javasctipt",
     url: "https://eloquentjavascript.net/",
     icon: "book",
+  },
+  {
+    action: "Read on Lookup tables",
+    url: "https://blog.frost.kiwi/WebGL-LUTS-made-simple/",
+    icon: "book",
+    ert: "10m",
+  },
+  {
+    action: "Learn about shazam",
+    url: "https://www.cameronmacleod.com/blog/how-does-shazam-work",
+    icon: "book",
+    ert: "10m",
+  },
+  {
+    action: "Read course on vector databases",
+    url: "https://tge-data-web.nyc3.digitaloceanspaces.com/docs/Vector%20Databases%20-%20A%20Technical%20Primer.pdf",
+    icon: "book",
+    ert: "20m",
+  },
+  {
+    action: "Learn how radios woooork",
+    url: "https://lcamtuf.substack.com/p/radios-how-do-they-work",
+    icon: "bulb",
+    ert: "15m",
   }
 ];
