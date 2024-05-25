@@ -123,24 +123,48 @@ var actions = [
     action: "Read on Lookup tables",
     url: "https://blog.frost.kiwi/WebGL-LUTS-made-simple/",
     icon: "book",
-    ert: "10m",
+    et: "10m",
   },
   {
     action: "Learn about shazam",
     url: "https://www.cameronmacleod.com/blog/how-does-shazam-work",
     icon: "book",
-    ert: "10m",
+    et: "10m",
   },
   {
     action: "Read course on vector databases",
     url: "https://tge-data-web.nyc3.digitaloceanspaces.com/docs/Vector%20Databases%20-%20A%20Technical%20Primer.pdf",
     icon: "book",
-    ert: "20m",
+    et: "20m",
   },
   {
     action: "Learn how radios woooork",
     url: "https://lcamtuf.substack.com/p/radios-how-do-they-work",
     icon: "bulb",
-    ert: "15m",
+    et: "15m",
+  },
+  {
+    action: "Listen to Daniel Dennett's last interview",
+    ulr: "https://dailynous.com/2024/04/19/daniel-dennett-death-1942-2024/",
+    icon: "bulb",
+    et: "1.5h",
+  },
+  {
+    action: "I should have loved bigology - read about learning approach",
+    url: "https://jsomers.net/i-should-have-loved-biology/",
+    icon: "bulb",
+    et: "20m",
+  },
+  {
+    action: "Learn about exponential smoothing in JS animations",
+    url: "https://lisyarus.github.io/blog/posts/exponential-smoothing.html",
+    icon: "code",
+    et: "25m",
+  },
+  {
+    acttion: "Read 'avoid blundering' article",
+    url: "https://longform.asmartbear.com/avoid-blundering/",
+    icon: "bulb",
+    et: "25m",
   }
 ];
