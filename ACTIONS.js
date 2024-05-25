@@ -166,5 +166,11 @@ var actions = [
     url: "https://longform.asmartbear.com/avoid-blundering/",
     icon: "bulb",
     et: "25m",
+  },
+  {
+    action: "Play around with GPT2 in numpy",
+    url: "https://jaykmody.com/blog/gpt-from-scratch/#what-is-a-gpt%3F",
+    icon: "code",
+    et: "1h"
   }
 ];
