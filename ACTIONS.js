@@ -172,5 +172,11 @@ var actions = [
     url: "https://jaykmody.com/blog/gpt-from-scratch/#what-is-a-gpt%3F",
     icon: "code",
     et: "1h"
-  }
+  },
+  {
+    action: "Read about Maxwell equations",
+    url: "https://photonlines.substack.com/p/an-intuitive-guide-to-maxwells-equations",
+    icon: "book",
+    et: "30m"
+  },
 ];
