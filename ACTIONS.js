@@ -179,4 +179,10 @@ var actions = [
     icon: "book",
     et: "30m"
   },
+  {
+    action: "Do coding tutorial on LLMs from ground up",
+    url: "https://magazine.sebastianraschka.com/p/building-llms-from-the-ground-up",
+    icon: "code",
+    et: "4h"
+  }
 ];
