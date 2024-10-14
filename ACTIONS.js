@@ -184,5 +184,11 @@ var actions = [
     url: "https://magazine.sebastianraschka.com/p/building-llms-from-the-ground-up",
     icon: "code",
     et: "4h"
+  },
+  {
+    action: "Read about ancap",
+    url: "https://www.ds.show/",
+    ico: "book",
+    et: "1h"
   }
 ];
