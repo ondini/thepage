@@ -188,7 +188,13 @@ var actions = [
   {
     action: "Read about ancap",
     url: "https://www.ds.show/",
-    ico: "book",
+    icon: "book",
     et: "1h"
+  },
+  {
+    action: "Read 'How to ship'",
+    url: "https://www.seangoedecke.com/how-to-ship/",
+    icon: "book",
+    et: "9m"
   }
 ];
