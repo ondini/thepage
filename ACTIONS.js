@@ -196,5 +196,11 @@ var actions = [
     url: "https://www.seangoedecke.com/how-to-ship/",
     icon: "book",
     et: "9m"
+  }, 
+  {
+    action: "Read and think about The Art of Asking Smarter questions",
+    utl: "https://hbr.org/2024/05/the-art-of-asking-smarter-questions?ab=HP-hero-for-you-text-1",
+    icon: "bulb", 
+    er: "15m"
   }
 ];
