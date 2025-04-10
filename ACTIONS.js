@@ -202,5 +202,23 @@ var actions = [
     utl: "https://hbr.org/2024/05/the-art-of-asking-smarter-questions?ab=HP-hero-for-you-text-1",
     icon: "bulb", 
     er: "15m"
+  },
+  {
+    action: "Watch Hegel: guide to history",
+    utl: "https://www.youtube.com/watch?v=w85nGQ_KUgE&ab_channel=Then%26Now",
+    icon: "bulb", 
+    er: "2h"
+  },
+  {
+    action: "Read deeper guide to Git",
+    utl: "https://beej.us/guide/bggit/html/split/",
+    icon: "book", 
+    er: "1h"
+  },
+  {
+    action: "Learn how to make own py packages",
+    utl: "https://packaging.python.org/en/latest/guides/writing-pyproject-toml/",
+    icon: "code", 
+    er: "20m"
   }
 ];
