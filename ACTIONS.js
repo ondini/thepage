@@ -162,7 +162,7 @@ var actions = [
     et: "25m",
   },
   {
-    acttion: "Read 'avoid blundering' article",
+    action: "Read 'avoid blundering' article",
     url: "https://longform.asmartbear.com/avoid-blundering/",
     icon: "bulb",
     et: "25m",
