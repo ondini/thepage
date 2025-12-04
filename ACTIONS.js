@@ -201,24 +201,30 @@ var actions = [
     action: "Read and think about The Art of Asking Smarter questions",
     utl: "https://hbr.org/2024/05/the-art-of-asking-smarter-questions?ab=HP-hero-for-you-text-1",
     icon: "bulb", 
-    er: "15m"
+    et: "15m"
   },
   {
     action: "Watch Hegel: guide to history",
     utl: "https://www.youtube.com/watch?v=w85nGQ_KUgE&ab_channel=Then%26Now",
     icon: "bulb", 
-    er: "2h"
+    et: "2h"
   },
   {
     action: "Read deeper guide to Git",
     utl: "https://beej.us/guide/bggit/html/split/",
     icon: "book", 
-    er: "1h"
+    et: "1h"
   },
   {
     action: "Learn how to make own py packages",
     utl: "https://packaging.python.org/en/latest/guides/writing-pyproject-toml/",
     icon: "code", 
-    er: "20m"
-  }
+    et: "20m"
+  },
+  {
+    action: "Watch multitask learning Stanford course",
+    utl: "https:://www.youtube.com/watch?v=bkVCAk9Nsss&list=PLoROMvodv4rNjRoawgt72BBNwL2V7doGI",
+    icon: "video", 
+    et: "2h"
+  },
 ];
